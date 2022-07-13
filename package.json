@@ -1,0 +1,19 @@
+{
+  "name": "joilustraciones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoGaleano/joIlustraciones.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoGaleano/joIlustraciones/issues"
+  },
+  "homepage": "https://github.com/JoGaleano/joIlustraciones#readme"
+}

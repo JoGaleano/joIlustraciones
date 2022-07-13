@@ -1,0 +1,961 @@
+/*MOBILE*/
+@media (max-width: 768px) {
+  .header__contenedor__logo{
+    font-family: 'Liu Jian Mao Cao', sans-serif;
+    font-weight: 700;
+    letter-spacing: .025rem;
+    vertical-align: middle;
+    color: #Da7f8f !important;
+}
+
+#navbarCollapse ul li a{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.header__contenedor__carrito{
+    margin-right: 0;
+}
+
+.header__contenedor__carrito:hover{
+    color: #DA7f8f !important;
+}
+
+#formulario .mainForm .encabezado {
+    padding-top: 10%;
+}
+.encabezado{
+    color: #4d5053;
+    text-align: center;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+.encabezado h1{
+  font-size: 2.5rem;
+  color: #4d5053;
+  margin-top: 10%;
+}
+
+  #formulario .mainForm .contenedor {
+    width: 100%;
+    padding: 5% 5%;
+    margin: auto;
+    font-family: "Nunito", "Amatic SC", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: center nowrap;
+    align-items: center;
+  }
+  #formulario .mainForm .contenedor .tarjeta {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    color: #F0F5F9;
+    transition: 0.3s ease all;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    cursor: pointer;
+    z-index: 2;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera, #formulario .mainForm .contenedor .tarjeta .trasera {
+    padding: 10px 20px 5px;
+    border-radius: 15px;
+    max-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0 #52616B;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera {
+    width: 100%;
+    background: linear-gradient(#52616B, #072227);
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .logo-marca {
+    text-align: right;
+    min-height: 50px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .logo-marca img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 20%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .chip {
+    width: 100%;
+    max-width: 10%;
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .label {
+    color: whitesmoke;
+    margin-bottom: 3px;
+    font-size: 1.3rem;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .numero, #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .nombre, #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .expiracion {
+    color: #F0F5F9;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera {
+    background: linear-gradient(#52616B, #072227);
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    min-height: 100%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .barra-magnetica {
+    height: 40px;
+    background-color: #072227;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma {
+    width: 65%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma .firma {
+    height: 30px;
+    background: repeating-linear-gradient(rgba(135, 207, 235, 0.791) 0, rgba(135, 207, 235, 0.613) 5px, rgba(255, 166, 0, 0.698) 5px, rgba(255, 166, 0, 0.519) 10px);
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma .firma p {
+    font-family: "Liu Jian Mao Cao", "Amatic SC", cursive;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    padding: 0 2%;
+    text-transform: capitalize;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #ccv {
+    width: 15%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #ccv .ccv {
+    background: #F0F5F9;
+    height: 35px;
+    color: #6c6e90;
+    padding: 5%;
+    margin-top: 15%;
+    text-align: center;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos .grupo .label {
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .leyenda {
+    line-height: 1rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding-top: 30px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .link-banco {
+    text-decoration: none;
+    color: #F0F5F9;
+  }
+  #formulario .mainForm .contenedor .tarjeta.active {
+    transform: rotateY(180deg);
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    background: #6c6e90;
+    color: #F0F5F9;
+    position: relative;
+    top: -25px;
+    z-index: 3;
+    border-radius: 100%;
+    border: 1;
+    border: none;
+    box-shadow: 0px 3px 10px #F0F5F9;
+    padding: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario:hover {
+    background-color: rgba(82, 97, 107, 0.5568627451);
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario:active {
+    transform: rotate(45deg);
+  }
+  #formulario .mainForm .formulario-tarjeta {
+    background-color: #F0F5F9;
+    width: 100%;
+    padding: 150px 30px 30px 30px;
+    max-width: 800px;
+    border-radius: 3%;
+    position: relative;
+    top: -150px;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.3s ease-out;
+  }
+  #formulario .mainForm .formulario-tarjeta label {
+    display: block;
+    color: #6c6e90;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+  }
+  #formulario .mainForm .formulario-tarjeta input, #formulario .mainForm .formulario-tarjeta select, #formulario .mainForm .formulario-tarjeta .btn-enviar {
+    border: 2px solid #a5c6dd;
+    height: 40px;
+    width: 100%;
+    padding: 5px 12px;
+    transition: 0.3s ease all;
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+  #formulario .mainForm .formulario-tarjeta .btn-enviar {
+    font-family: "Amatic SC";
+    font-weight: 700;
+    letter-spacing: 5px;
+  }
+  #formulario .mainForm .formulario-tarjeta input {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  #formulario .mainForm .formulario-tarjeta input:hover, #formulario .mainForm .formulario-tarjeta select:hover {
+    border: 2px solid #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta input:focus, #formulario .mainForm .formulario-tarjeta select:focus {
+    outline: #072227;
+    box-shadow: 5px 5px 5px #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox #selectMes {
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .expira {
+    width: 100%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .ccv {
+    min-width: 100px;
+    margin-top: 8px;
+    height: 20%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select {
+    width: 100%;
+    margin-right: 15px;
+    height: 20%;
+    position: relative;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select select {
+    -webkit-appearance: none;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select i {
+    position: absolute;
+    color: #6c6e90;
+    top: 30%;
+    right: 5%;
+    transition: 0.3s ease all;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select i:hover {
+    color: rgba(82, 97, 107, 0.5568627451);
+  }
+  #formulario .mainForm .btn-enviar {
+    border: none;
+    padding: 10px;
+    color: #F0F5F9;
+    background-color: #6c6e90;
+    box-shadow: 2px 2px 10px 0px #C9D6DF;
+    cursor: pointer;
+  }
+  #formulario .mainForm .btn-enviar:hover {
+    background: #F0F5F9;
+    color: #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  #formulario .mensaje {
+    padding-bottom: 10%;
+  }
+  #formulario .mensaje p {
+    color: #253846;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Liu Jian Mao Cao', Arial, Helvetica, sans-serif;
+  }
+  
+.footer{
+  min-height: 8vh;
+  height: 3rem;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.footer__contenedor{
+  background-color: rgb(33, 37, 41);
+  color: white;
+  font-size: 1rem;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contenedor p{
+  margin: 0px;
+}
+
+ion-icon {
+  color: white;    
+}
+}
+
+/*TABLET*/
+@media (min-width: 769px) and (max-width: 1199px) {
+  .header__contenedor__logo{
+    font-family: 'Liu Jian Mao Cao', sans-serif;
+    font-weight: 700;
+    letter-spacing: .025rem;
+    vertical-align: middle;
+    color: #Da7f8f !important;
+}
+
+#navbarCollapse ul li a{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.header__contenedor__carrito{
+    margin-right: 0;
+}
+
+.header__contenedor__carrito:hover{
+    color: #DA7f8f !important;
+}
+
+#formulario .mainForm .encabezado {
+    padding-top: 10%;
+}
+.encabezado{
+    color: #4d5053;
+    text-align: center;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+.encabezado h1{
+  font-size: 3.2rem;
+  color: #4d5053;
+  margin-top: 10%;
+}
+
+  #formulario .mainForm .contenedor {
+    width: 100%;
+    padding: 5% 5%;
+    margin: auto;
+    font-family: "Nunito", "Amatic SC", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: center nowrap;
+    align-items: center;
+  }
+  #formulario .mainForm .contenedor .tarjeta {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    color: #F0F5F9;
+    transition: 0.3s ease all;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    cursor: pointer;
+    z-index: 2;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera, #formulario .mainForm .contenedor .tarjeta .trasera {
+    padding: 10px 20px 5px;
+    border-radius: 15px;
+    max-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0 #52616B;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera {
+    width: 100%;
+    background: linear-gradient(#52616B, #072227);
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .logo-marca {
+    text-align: right;
+    min-height: 50px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .logo-marca img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 20%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .chip {
+    width: 100%;
+    max-width: 10%;
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .label {
+    color: whitesmoke;
+    margin-bottom: 3px;
+    font-size: 1.3rem;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .numero, #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .nombre, #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .expiracion {
+    color: #F0F5F9;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera {
+    background: linear-gradient(#52616B, #072227);
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    min-height: 100%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .barra-magnetica {
+    height: 40px;
+    background-color: #072227;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma {
+    width: 65%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma .firma {
+    height: 30px;
+    background: repeating-linear-gradient(rgba(135, 207, 235, 0.791) 0, rgba(135, 207, 235, 0.613) 5px, rgba(255, 166, 0, 0.698) 5px, rgba(255, 166, 0, 0.519) 10px);
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma .firma p {
+    font-family: "Liu Jian Mao Cao", "Amatic SC", cursive;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    padding: 0 2%;
+    text-transform: capitalize;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #ccv {
+    width: 15%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #ccv .ccv {
+    background: #F0F5F9;
+    height: 35px;
+    color: #6c6e90;
+    padding: 5%;
+    margin-top: 15%;
+    text-align: center;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos .grupo .label {
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .leyenda {
+    line-height: 1rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding-top: 30px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .link-banco {
+    text-decoration: none;
+    color: #F0F5F9;
+  }
+  #formulario .mainForm .contenedor .tarjeta.active {
+    transform: rotateY(180deg);
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    background: #6c6e90;
+    color: #F0F5F9;
+    position: relative;
+    top: -25px;
+    z-index: 3;
+    border-radius: 100%;
+    border: 1;
+    border: none;
+    box-shadow: 0px 3px 10px #F0F5F9;
+    padding: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario:hover {
+    background-color: rgba(82, 97, 107, 0.5568627451);
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario:active {
+    transform: rotate(45deg);
+  }
+  #formulario .mainForm .formulario-tarjeta {
+    background-color: #F0F5F9;
+    width: 100%;
+    padding: 150px 30px 30px 30px;
+    max-width: 800px;
+    border-radius: 3%;
+    position: relative;
+    top: -150px;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.3s ease-out;
+  }
+  #formulario .mainForm .formulario-tarjeta label {
+    display: block;
+    color: #6c6e90;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+  }
+  #formulario .mainForm .formulario-tarjeta input, #formulario .mainForm .formulario-tarjeta select, #formulario .mainForm .formulario-tarjeta .btn-enviar {
+    border: 2px solid #a5c6dd;
+    height: 40px;
+    width: 100%;
+    padding: 5px 12px;
+    transition: 0.3s ease all;
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+  #formulario .mainForm .formulario-tarjeta .btn-enviar {
+    font-family: "Amatic SC";
+    font-weight: 700;
+    letter-spacing: 5px;
+  }
+  #formulario .mainForm .formulario-tarjeta input {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  #formulario .mainForm .formulario-tarjeta input:hover, #formulario .mainForm .formulario-tarjeta select:hover {
+    border: 2px solid #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta input:focus, #formulario .mainForm .formulario-tarjeta select:focus {
+    outline: #072227;
+    box-shadow: 5px 5px 5px #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox #selectMes {
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .expira {
+    width: 100%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .ccv {
+    min-width: 100px;
+    margin-top: 8px;
+    height: 20%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select {
+    width: 100%;
+    margin-right: 15px;
+    height: 20%;
+    position: relative;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select select {
+    -webkit-appearance: none;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select i {
+    position: absolute;
+    color: #6c6e90;
+    top: 30%;
+    right: 5%;
+    transition: 0.3s ease all;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select i:hover {
+    color: rgba(82, 97, 107, 0.5568627451);
+  }
+  #formulario .mainForm .btn-enviar {
+    border: none;
+    padding: 10px;
+    color: #F0F5F9;
+    background-color: #6c6e90;
+    box-shadow: 2px 2px 10px 0px #C9D6DF;
+    cursor: pointer;
+  }
+  #formulario .mainForm .btn-enviar:hover {
+    background: #F0F5F9;
+    color: #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  #formulario .mensaje {
+    padding-bottom: 10%;
+  }
+  #formulario .mensaje p {
+    color: #253846;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Liu Jian Mao Cao', Arial, Helvetica, sans-serif;
+  }
+  
+.footer{
+  min-height: 8vh;
+  height: 3rem;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.footer__contenedor{
+  background-color: rgb(33, 37, 41);
+  color: white;
+  font-size: 1rem;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contenedor p{
+  margin: 0px;
+}
+
+ion-icon {
+  color: white;    
+}
+}
+
+/*DESKTOP*/
+@media (min-width: 1200px) {
+    .header__contenedor__logo{
+        font-family: 'Liu Jian Mao Cao', sans-serif;
+        font-weight: 700;
+        letter-spacing: .025rem;
+        vertical-align: middle;
+        color: #Da7f8f !important;
+    }
+    
+    #navbarCollapse ul li a{
+        font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    .header__contenedor__carrito{
+        margin-right: 0;
+    }
+    
+    .header__contenedor__carrito:hover{
+        color: #DA7f8f !important;
+    }
+
+    #formulario .mainForm .encabezado {
+        padding-top: 10%;
+    }
+    .encabezado{
+        color: #4d5053;
+        text-align: center;
+        font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    }
+
+    .encabezado h1{font-size: 5rem;}
+
+    .totalCompra{
+        text-align: center;
+        font-size: 3.5rem;
+        font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+        margin-top: 5%;
+        color: #4d5053be;
+    }
+
+
+    #formulario .mainForm .contenedor {
+        width: 100%;
+        padding: 5% 0%;
+        margin: auto;
+        font-family: Nunito, Amatic SC, Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        flex-flow: center nowrap;
+        align-items: center;
+  }
+  #formulario .mainForm .contenedor .tarjeta {
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+    color: #F0F5F9;
+    transition: 0.3s ease all;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    cursor: pointer;
+    z-index: 2;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera, #formulario .mainForm .contenedor .tarjeta .trasera {
+    padding: 30px;
+    border-radius: 15px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0 #52616B;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera {
+    width: 100%;
+    background: linear-gradient(#52616B, #072227);
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .logo-marca {
+    text-align: right;
+    min-height: 50px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .logo-marca img {
+    width: 15%;
+    height: 100%;
+    object-fit: fill;
+    max-width: 30%;
+
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .chip {
+    width: 100%;
+    max-width: 10%;
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .label {
+    color: rgba(245, 245, 245, 0.7);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .numero, #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .nombre, #formulario .mainForm .contenedor .tarjeta .delantera .datos .grupo .expiracion {
+    color: #F0F5F9;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  #formulario .mainForm .contenedor .tarjeta .delantera .flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera {
+    background: linear-gradient(#52616B, #072227);
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .barra-magnetica {
+    height: 40px;
+    background-color: #072227;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma {
+    width: 65%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma .firma {
+    height: 40px;
+    background: repeating-linear-gradient(rgba(135, 207, 235, 0.791) 0, rgba(135, 207, 235, 0.613) 5px, rgba(255, 166, 0, 0.698) 5px, rgba(255, 166, 0, 0.519) 10px);
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #firma .firma p {
+    font-family: "Liu Jian Mao Cao", "Amatic SC", cursive;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    padding: 0 2%;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #ccv {
+    width: 15%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos #ccv .ccv {
+    background: #F0F5F9;
+    height: 40px;
+    color: #6c6e90;
+    padding: 5%;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .datos .grupo .label {
+    margin-bottom: 5%;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .leyenda {
+    line-height: 1rem;
+    text-align: justify;
+    padding-top: 20px;
+  }
+  #formulario .mainForm .contenedor .tarjeta .trasera .link-banco {
+    text-decoration: none;
+    color: #F0F5F9;
+  }
+  #formulario .mainForm .contenedor .tarjeta.active {
+    transform: rotateY(180deg);
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 20px;
+    background: #6c6e90;
+    color: #F0F5F9;
+    position: relative;
+    top: -25px;
+    z-index: 3;
+    border-radius: 100%;
+    border: 1;
+    border: none;
+    box-shadow: 0px 3px 10px #F0F5F9;
+    padding: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario:hover {
+    background-color: rgba(82, 97, 107, 0.5568627451);
+  }
+  #formulario .mainForm .contenedor-btn .btn-abrir-formulario:active {
+    transform: rotate(45deg);
+  }
+  #formulario .mainForm .formulario-tarjeta {
+    background-color: #F0F5F9;
+    width: 100%;
+    padding: 150px 30px 30px 30px;
+    max-width: 800px;
+    border-radius: 3%;
+    position: relative;
+    top: -150px;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.3s ease-out;
+  }
+  #formulario .mainForm .formulario-tarjeta label {
+    display: block;
+    color: #6c6e90;
+    margin-bottom: 2%;
+    font-size: 1.8rem;
+  }
+  #formulario .mainForm .formulario-tarjeta input, #formulario .mainForm .formulario-tarjeta select, #formulario .mainForm .formulario-tarjeta .btn-enviar {
+    border: 2px solid #a5c6dd;
+    height: 50px;
+    width: 100%;
+    padding: 5px 12px;
+    transition: 0.3s ease all;
+    border-radius: 5px;
+    font-size: 1.5rem;
+  }
+  #formulario .mainForm .formulario-tarjeta input {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  #formulario .mainForm .formulario-tarjeta input:hover, #formulario .mainForm .formulario-tarjeta select:hover {
+    border: 2px solid #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta input:focus, #formulario .mainForm .formulario-tarjeta select:focus {
+    outline: #072227;
+    box-shadow: 5px 5px 5px #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox {
+    display: flex;
+    justify-content: space-between;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .expira {
+    width: 100%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .ccv {
+    min-width: 100px;
+    margin-top: 8px;
+    height: 20%;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select {
+    width: 100%;
+    margin-right: 15px;
+    height: 20%;
+    position: relative;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select select {
+    -webkit-appearance: none;
+  }
+
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select i {
+    position: absolute;
+    color: #6c6e90;
+    top: 35%;
+    right: 7%;
+    transition: 0.3s ease all;
+  }
+  #formulario .mainForm .formulario-tarjeta .flexbox .grupo-select i:hover {
+    color: rgba(82, 97, 107, 0.5568627451);
+  }
+  #formulario .mainForm .btn-enviar {
+    border: none;
+    padding: 10px;
+    color: #F0F5F9;
+    background-color: #6c6e90;
+    box-shadow: 2px 2px 10px 0px #C9D6DF;
+    cursor: pointer;
+  }
+  #formulario .mainForm .btn-enviar:hover {
+    background: #F0F5F9;
+    color: #6c6e90;
+  }
+  #formulario .mainForm .formulario-tarjeta.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  #formulario .mensaje {
+    padding-bottom: 10%;
+  }
+  #formulario .mensaje p {
+    color: #253846;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Liu Jian Mao Cao', Arial, Helvetica, sans-serif;
+  }
+  
+.footer{
+  min-height: 8vh;
+  height: 3rem;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.footer__contenedor{
+  background-color: rgb(33, 37, 41);
+  color: white;
+  font-size: 1rem;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contenedor p{
+  margin: 0px;
+}
+
+ion-icon {
+  color: white;    
+}
+}

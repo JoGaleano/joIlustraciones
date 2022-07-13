@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "../asset/davis-jones-2.png",
+        "titulo": "DAVYS JONES",
+        "precio": 200
+    },
+    {
+        "id": 2,
+        "imgUrl": "../asset/tia-dalma.png",
+        "titulo": "TIA DALMA",
+        "precio": 180
+    },
+    {
+        "id": 3,
+        "imgUrl": "../asset/davis-jones-3.png",
+        "titulo": "DAVID JONES BLUE",
+        "precio": 40
+    },
+    {
+        "id": 4,
+        "imgUrl": "../asset/Wanda.png",
+        "titulo": "Wanda",
+        "precio": 180
+    },
+    {
+        "id": 5,
+        "imgUrl": "../asset/davis-jones.png",
+        "titulo": "DAVYS JONES",
+        "precio": 140
+    },
+    {
+        "id": 6,
+        "imgUrl": "../asset/davis-jones.png",
+        "titulo": "DAVYS JONES",
+        "precio": 160
+    },
+    {
+        "id": 7,
+        "imgUrl": "../asset/img-01.jpg",
+        "titulo": "COCODILE LACRIMAE",
+        "precio": 150
+    },
+    {
+        "id": 8,
+        "imgUrl": "../asset/img-02.jpg",
+        "titulo": "COCODILE LACRIMAE - FACELESS",
+        "precio": 150
+    },
+    {
+        "id": 9,
+        "imgUrl": "../asset/img-03.jpg",
+        "titulo": "APPLAUDERE",
+        "precio": 130
+    },
+    {
+        "id": 10,
+        "imgUrl": "../asset/img-04.jpg",
+        "titulo": "APPLAUDERE - FACELESS",
+        "precio": 100
+    },  
+    {
+        "id": 11,
+        "imgUrl": "../asset/img-05.jpg",
+        "titulo": "CLAMOR",
+        "precio": 30
+    },
+    {
+        "id": 12,
+        "imgUrl": "../asset/img-06.jpg",
+        "titulo": "CLAMOR - FACELESS",
+        "precio": 80
+    },
+    {
+        "id": 13,
+        "imgUrl": "../asset/img-07.jpg",
+        "titulo": "INFANTEM DORMIENTI",
+        "precio": 220
+    },
+    {
+        "id": 14,
+        "imgUrl": "../asset/img-08.jpg",
+        "titulo": "DORMIENTI - FACELESS",
+        "precio": 20
+    },
+    {
+        "id": 15,
+        "imgUrl": "../asset/img-09.jpg",
+        "titulo": "FRATES",
+        "precio": 180
+    },
+    {
+        "id": 16,
+        "imgUrl": "../asset/img-10.jpg",
+        "titulo": "FRATES - FACELESS",
+        "precio": 150
+    },
+    {
+        "id": 17,
+        "imgUrl": "../asset/img-11.jpg",
+        "titulo": "PARUM VELLE",
+        "precio": 130
+    },
+    {
+        "id": 18,
+        "imgUrl": "../asset/img-12.jpg",
+        "titulo": "PARUM VELLE - FACELESS",
+        "precio": 100
+    },
+    {
+        "id": 19,
+        "imgUrl": "../asset/img-13.jpg",
+        "titulo": "DUBIUM",
+        "precio": 160
+    },
+    {
+        "id": 20,
+        "imgUrl": "../asset/img-14.jpg",
+        "titulo": "DUBIUM - FACELESS",
+        "precio": 120
+    },
+    {
+        "id": 21,
+        "imgUrl": "../asset/img-15.jpg",
+        "titulo": "ADMIRATIO ",
+        "precio": 170
+    },
+    {
+        "id": 22,
+        "imgUrl": "../asset/img-16.jpg",
+        "titulo": "ADMIRATIO - FACELESS",
+        "precio": 130
+    },
+    {
+        "id": 23,
+        "imgUrl": "../asset/img-17.jpg",
+        "titulo": "ADMIRATIO II",
+        "precio": 170
+    },
+    {
+        "id": 24,
+        "imgUrl": "../asset/img-18.jpg",
+        "titulo": "ADMIRATIO II - FACELESS",
+        "precio": 150
+    },
+    {
+        "id": 25,
+        "imgUrl": "../asset/img-19.jpg",
+        "titulo": "LUDERE",
+        "precio": 100
+    },
+    {
+        "id": 26,
+        "imgUrl": "../asset/img-20.jpg",
+        "titulo": "LUDERE - FACELESS ",
+        "precio": 80
+    },
+    {
+        "id": 27,
+        "imgUrl": "../asset/img-21.jpg",
+        "titulo": "VULTUS",
+        "precio": 160
+    },
+    {
+        "id": 28,
+        "imgUrl": "../asset/img-22.jpg",
+        "titulo": "VULTUS - FACELESS",
+        "precio": 170
+    },
+    {
+        "id": 29,
+        "imgUrl": "../asset/img-23.jpg",
+        "titulo": "LUDERE II",
+        "precio": 120
+    },
+    {
+        "id": 30,
+        "imgUrl": "../asset/img-24.jpg",
+        "titulo": "LUDERE II - FACELESS",
+        "precio": 100
+    },
+    {
+        "id": 31,
+        "imgUrl": "../asset/img-25.jpg",
+        "titulo": "PUER VULTUS",
+        "precio": 100
+    },
+    {
+        "id": 32,
+        "imgUrl": "../asset/img-26.jpg",
+        "titulo": "PUER VULTUS - FACELESS",
+        "precio": 80
+    },
+    {
+        "id": 33,
+        "imgUrl": "../asset/img-27.jpg",
+        "titulo": "BATMAN",
+        "precio": 90
+    },
+    {
+        "id": 34,
+        "imgUrl": "../asset/img-28.jpg",
+        "titulo": "BATMAN - FACELESS",
+        "precio": 70
+    },
+    {
+        "id": 35,
+        "imgUrl": "../asset/img-29.jpg",
+        "titulo": "PUER VULTUS II",
+        "precio": 180
+    },
+    {
+        "id": 36,
+        "imgUrl": "../asset/img-30.jpg",
+        "titulo": "PUER VULTUS II - FACELESS",
+        "precio": 160
+    },
+    {
+        "id": 37,
+        "imgUrl": "../asset/img-31.jpg",
+        "titulo": "SORORIBUS",
+        "precio": 180
+    },
+    {
+        "id": 38,
+        "imgUrl": "../asset/img-32.jpg",
+        "titulo": "SORORIBUS - FACELESS",
+        "precio": 160
+    },
+    {
+        "id": 39,
+        "imgUrl": "../asset/img-33.jpg",
+        "titulo": "AVI",
+        "precio": 140
+    },
+    {
+        "id": 40,
+        "imgUrl": "../asset/img-34.jpg",
+        "titulo": "AVI - FACELESS",
+        "precio": 120
+    },
+    {
+        "id": 41,
+        "imgUrl": "../asset/img-35.jpg",
+        "titulo": "SORORIBUS II",
+        "precio": 60
+    },
+    {
+        "id": 42,
+        "imgUrl": "../asset/img-36.jpg",
+        "titulo": "SORORIBUS II - FACELESS",
+        "precio": 80
+    },
+    {
+        "id": 43,
+        "imgUrl": "../asset/img-37.jpg",
+        "titulo": "COGNATI",
+        "precio": 90
+    },
+    {
+        "id": 44,
+        "imgUrl": "../asset/img-38.jpg",
+        "titulo": "COGNATI - FACELESS",
+        "precio": 70
+    },
+    {
+        "id": 45,
+        "imgUrl": "../asset/img-39.jpg",
+        "titulo": "MATER ET FILIUS",
+        "precio": 160
+    },
+    {
+        "id": 46,
+        "imgUrl": "../asset/img-40.jpg",
+        "titulo": "MATER ET FILIUS - FACELESS",
+        "precio": 120
+    },
+    {
+        "id": 47,
+        "imgUrl": "../asset/img-41.jpg",
+        "titulo": "CURIOSITAS",
+        "precio": 180
+    },
+    {
+        "id": 48,
+        "imgUrl": "../asset/img-42.jpg",
+        "titulo": "CURIOSITAS - FACELESS",
+        "precio": 120
+    },
+    {
+        "id": 49,
+        "imgUrl": "../asset/img-43.jpg",
+        "titulo": "ADULESCENTIA",
+        "precio": 200
+    },
+    {
+        "id": 50,
+        "imgUrl": "../asset/img-44.jpg",
+        "titulo": "ADULESCENTIA - FACELESS",
+        "precio": 180
+    },
+    {
+        "id": 51,
+        "imgUrl": "../asset/img-45.jpg",
+        "titulo": "PUBERTATEM",
+        "precio": 170
+    },
+    {
+        "id": 52,
+        "imgUrl": "../asset/img-46.jpg",
+        "titulo": "PUBERTATEM - FACELESS",
+        "precio": 120
+    },
+    {
+        "id": 53,
+        "imgUrl": "../asset/img-47.jpg",
+        "titulo": "VER",
+        "precio": 90
+    },
+    {
+        "id": 54,
+        "imgUrl": "../asset/img-48.jpg",
+        "titulo": "VER - FACELESS",
+        "precio": 80
+    },
+    {
+        "id": 55,
+        "imgUrl": "../asset/img-49.jpg",
+        "titulo": "BE",
+        "precio": 100
+    },
+    {
+        "id": 56,
+        "imgUrl": "../asset/img-50.jpg",
+        "titulo": "BE - FACELESS",
+        "precio": 50
+    },
+    {
+        "id": 57,
+        "imgUrl": "../asset/img-51.jpg",
+        "titulo": "PAX",
+        "precio": 140
+    },
+    {
+        "id": 58,
+        "imgUrl": "../asset/img-52.jpg",
+        "titulo": "PAX - FACELESS",
+        "precio": 100
+    },
+    {
+        "id": 59,
+        "imgUrl": "../asset/img-53.jpg",
+        "titulo": "SEMPER",
+        "precio": 160
+    },
+    {
+        "id": 60,
+        "imgUrl": "../asset/img-54.jpg",
+        "titulo": "SEMPER - FACELESS",
+        "precio": 130
+    }
+]
